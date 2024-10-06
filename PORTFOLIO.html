@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .projects ul li {
+            background: #fff;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+
+        form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            padding: 10px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi! I'm Shaik Afrin, a student from sri venkateswara university and i'm passionate about coding, technology, and creating amazing projects. Explore my work below!</p>
+    </section>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I'm currently studying B.TECH final year at sri venkateswara University College of Engineering,Tirupati.I completed my secondary education in 2019 at VSN Siddhartha High School-piler, with 95% and i completed my intermediate education in 2021 at Sri Gayatri Junior College-Tirupati, with 86.3%. My interests include web development, app development, and everything related to programming. I enjoy working with HTML, CSS, JavaScript, and various programming languages to build functional and visually appealing projects.</p>
+    </section>
+    <section id="skills">
+        <h1>My Skills</h1>
+        <ul>
+            <li>C</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+    </section>
+    <section id="projects" class="projects">
+        <h1>My Projects</h1>
+        <ul>
+            <li>
+                <h2>Project 1: Portfolio Website</h2>
+                <p>A personal portfolio website to showcase my projects and skills.</p>
+                <a href="#" target="_blank">View Project</a>
+            </li>
+            <li>
+                <h2>Project 2: To-Do App</h2>
+                <p>A simple to-do list app created using JavaScript.</p>
+                <a href="#" target="_blank">View Project</a>
+            </li>
+            <li>
+                <h2>Project 3: Weather App</h2>
+                <p>A web application that fetches weather data using an API.</p>
+                <a href="#" target="_blank">View Project</a>
+            </li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>If you would like to get in touch, feel free to send me a message using the form below.</p>
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 shaik Afrin. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
